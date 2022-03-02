@@ -1,4 +1,11 @@
 #!/bin/bash
+
+#######################FUNCTIONS###############################################################
+function pause() {
+    read -s -n 1 -p "Press any key to continue . . ."
+    echo ""
+}
+######################FUNCTIONS#################################################################
 sudo apt-get update
 echo -e $TEXT_YELLOW
 echo 'APT update finished...'
@@ -47,6 +54,7 @@ usermod -aG sudo $username
 pause
 
 sudo apt-get update
+pause
 
 
 
