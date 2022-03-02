@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get update
 echo -e $TEXT_YELLOW
 echo 'APT update finished...'
