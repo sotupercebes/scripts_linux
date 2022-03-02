@@ -6,6 +6,14 @@ function pause() {
     echo ""
 }
 ######################FUNCTIONS#################################################################
+
+######################COLOURS################
+TEXT_RESET='\e[0m'
+TEXT_YELLOW='\e[0;33m'
+TEXT_RED='\e[1;31m'
+TEXT_BLUE='\e[1;34m'
+
+#######################COLOURS###################
 sudo apt-get update
 echo -e $TEXT_YELLOW
 echo 'APT update finished...'
